@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Technology Is Changing the Delivery and Courier Industry</title>
+<style>
+:root {
+  --blue: #0b72ff;
+  --dark-blue: #0844b3;
+  --muted: #6b7280;
+  --bg: #f5f8ff;
+  --card: #ffffff;
+  --radius: 12px;
+  --shadow: 0 6px 18px rgba(12,23,60,0.08);
+  --max-width: 1100px;
+  font-family: "Inter", Arial, sans-serif;
+}
+* {box-sizing: border-box;}
+body {margin: 0; background: var(--bg); color: #0f1724; scroll-behavior: smooth;}
+img {max-width: 100%; border-radius: 10px;}
+.container {width: 92%; max-width: var(--max-width); margin: auto; padding: 2rem 0;}
+/* Header */
+header {position: sticky; top: 0; background: white; box-shadow: var(--shadow); z-index: 50;}
+header .inner {display: flex; justify-content: space-between; align-items: center; padding: 1rem 0;}
+.logo {font-weight: 700; font-size: 1.2rem; color: var(--dark-blue); text-decoration: none;}
+nav {display: flex; gap: 1rem;}
+nav a {text-decoration: none; color: #333; padding: .5rem .8rem; border-radius: 6px;}
+nav a:hover, nav a.active {background: var(--blue); color: white;}
+@media(max-width:800px){nav{display:none;flex-direction:column;position:absolute;right:1rem;top:60px;background:white;padding:1rem;border-radius:10px;box-shadow:var(--shadow);}nav.show{display:flex;}#toggle{display:block;} }
+#toggle{display:none;font-size:1.5rem;background:none;border:none;color:var(--dark-blue);cursor:pointer;}
+/* Sections */
+section {scroll-margin-top: 70px;}
+h1,h2,h3 {color: var(--dark-blue);}
+.lead {color: var(--muted);}
+.card {background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.2rem; margin-bottom: 1.5rem;}
+.grid-2, .grid-3 {display:grid; gap:1rem;}
+.grid-2{grid-template-columns:repeat(2,1fr);}
+.grid-3{grid-template-columns:repeat(3,1fr);}
+@media(max-width:800px){.grid-2,.grid-3{grid-template-columns:1fr;}}
+.cta, .btn {background: var(--blue); color: white; padding: .6rem 1rem; border:none; border-radius: 8px; text-decoration:none; display:inline-block;}
+.cta:hover, .btn:hover {background: var(--dark-blue);}
+.btn.alt {background: transparent; color: var(--dark-blue); border:1px solid var(--dark-blue);}
+footer {background:white; border-top:1px solid #eee; padding:1rem 0; text-align:center; font-size:0.9rem; color:#555;}
+/* Hero */
+.hero {padding:3rem 0;}
+.hero-grid {display:grid; grid-template-columns:1fr 400px; gap:2rem; align-items:center;}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;}}
+/* Pricing */
+.pricing .card {text-align:center;}
+.price {font-size:1.3rem; font-weight:700; color:var(--dark-blue);}
+ul {margin:0; padding-left:1.2rem;}
+/* Testimonials */
+blockquote {font-style:italic; margin:0;}
+cite {display:block; margin-top:.5rem; color:var(--muted);}
+.contact-grid {display:grid; grid-template-columns:1fr 320px; gap:1rem;}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr;}}
+form label {display:block; margin-top:.8rem;}
+input, textarea, select {width:100%; padding:.6rem; border-radius:8px; border:1px solid #ccc; margin-top:.3rem;}
+.form-actions {margin-top:1rem; display:flex; gap:.5rem;}
+</style>
+</head>
+<body>
+<header>
+  <div class="container inner">
+    <a class="logo" href="#">TechCourier</a>
+    <button id="toggle">☰</button>
+    <nav id="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#info">Information</a>
+      <a href="#services">Services</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero container">
+  <div class="hero-grid">
+    <div>
+      <h1>Technology Is Changing the Delivery and Courier Industry</h1>
+      <p class="lead">From route optimization to digital payments, emerging tech is reshaping how goods reach customers — faster, smarter, and more convenient.</p>
+      <a href="#services" class="cta">Explore Courier Services</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=60" alt="">
+  </div>
+  <div class="card">
+    <h2>Focus Area</h2>
+    <p>The impact of technology on online food sales and delivery operations in South Africa, including e-commerce platforms, mobile apps, digital payments, logistics and customer experience.</p>
+  </div>
+  <div class="card">
+    <h2>Focus Questions</h2>
+    <ul>
+      <li>How have e-commerce platforms contributed to growth in food sales?</li>
+      <li>How has mobile app development impacted customer engagement?</li>
+      <li>What role do digital payments and data analytics play?</li>
+      <li>What logistics technologies improve performance?</li>
+      <li>What challenges limit adoption (rural connectivity, costs, privacy)?</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Abstract</h2>
+    <p>Technology is rapidly reshaping the online food sales and courier sectors in South Africa. E-commerce platforms and mobile apps have made ordering food and groceries easier and faster, while digital payment systems improve transaction security and convenience. Logistics technologies — such as real-time tracking, route optimization, and AI-powered planning — are improving delivery efficiency and customer satisfaction. Social media and personalization techniques boost visibility and buyer loyalty. However, challenges including limited internet access in rural areas, high data costs, logistical complexity, and data privacy concerns persist. Overall, technology enables growth, improved consumer experiences, and new business models in the delivery and courier industry.</p>
+  </div>
+</section>
+
+<!-- INFO -->
+<section id="info" class="container">
+  <h1>Information & Findings</h1>
+  <div class="card">
+    <h2>Summary</h2>
+    <p>Technology is reshaping online food sales in South Africa by improving convenience, expanding market reach, and introducing new digital purchasing experiences. Mobile apps and e-commerce platforms are major drivers. Digital payments and social media marketing amplify consumer trust and discovery while logistical technology handles last-mile complexities.</p>
+  </div>
+  <div class="card">
+    <h2>Task Definition</h2>
+    <ul>
+      <li><b>Current situation:</b> Online ordering and mobile platforms became essential during COVID-19.</li>
+      <li><b>Focus:</b> How technological tools influence growth, sales, and customer reach.</li>
+      <li><b>Purpose:</b> Identify benefits, challenges, and suggest improvements.</li>
+      <li><b>Target audience:</b> Food business owners, managers, and customers.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Key Insights</h2>
+    <div class="grid-2">
+      <div><h3>E-commerce & Mobile Tech</h3><p>Apps reduce friction and let customers order on-the-go.</p></div>
+      <div><h3>Payments & Delivery</h3><p>Secure gateways increase customer confidence and speed.</p></div>
+      <div><h3>Personalization</h3><p>AI and ML tailor offers and improve experiences.</p></div>
+      <div><h3>Logistics</h3><p>Tracking and route optimization improve reliability.</p></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Concise Summaries</h2>
+    <ul>
+      <li>E-commerce platforms drive convenience and accessibility.</li>
+      <li>Mobile apps improve loyalty and engagement.</li>
+      <li>Social media boosts visibility and sales.</li>
+      <li>Secure digital payments encourage trust.</li>
+      <li>AI logistics make delivery faster and cheaper.</li>
+      <li>COVID-19 accelerated tech adoption.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Recommendations</h2>
+    <ul>
+      <li>Invest in reliable mobile ordering systems.</li>
+      <li>Offer multiple payment options and ensure privacy compliance.</li>
+      <li>Use analytics to understand customer needs.</li>
+      <li>Engage customers via social media promotions.</li>
+      <li>Adopt route optimization tools to boost efficiency.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="container">
+  <h1>Courier & Delivery Services</h1>
+  <div class="card">
+    <div class="grid-2" style="align-items:center;">
+      <div>
+        <h2>Reliable. Fast. Tech-Driven.</h2>
+        <p class="lead">Local courier and food delivery solutions optimized with real-time tracking and smart routing.</p>
+        <a href="#pricing" class="cta">See Pricing</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1601924582971-4c1f6e2b6b10?auto=format&fit=crop&w=1200&q=60" alt="">
+    </div>
+  </div>
+
+  <h2 id="pricing">Pricing Packages</h2>
+  <div class="grid-3 pricing">
+    <div class="card">
+      <h3>Starter</h3>
+      <p class="price">R29 per delivery</p>
+      <ul><li>Same-city deliveries</li><li>Real-time tracking</li><li>SMS notifications</li></ul>
+      <a href="#contact" class="btn">Order Now</a>
+    </div>
+    <div class="card" style="border:2px solid var(--blue)">
+      <h3>Business</h3>
+      <p class="price">R55 per delivery</p>
+      <ul><li>Priority pickup</li><li>Route optimization</li><li>Analytics dashboard</li></ul>
+      <a href="#contact" class="btn">Order Now</a>
+    </div>
+    <div class="card">
+      <h3>Premium</h3>
+      <p class="price">Custom pricing</p>
+      <ul><li>Dedicated drivers</li><li>API integration</li><li>Guaranteed SLA</li></ul>
+      <a href="#contact" class="btn alt">Contact Sales</a>
+    </div>
+  </div>
+
+  <h2>What Customers Say</h2>
+  <div class="grid-2">
+    <div class="card"><blockquote>"Fast deliveries and the tracking is spot on. Our restaurant’s orders doubled thanks to on-time service."<cite>— L. Nkosi</cite></blockquote></div>
+    <div class="card"><blockquote>"Great rates and reliable drivers. The dashboard helps our weekly reports."<cite>— P. van der Walt</cite></blockquote></div>
+  </div>
+
+  <h2 id="contact">Contact & Order</h2>
+  <div class="card contact-grid">
+    <form>
+      <label>Full Name<input type="text" required></label>
+      <label>Email<input type="email" required></label>
+      <label>Phone<input type="tel" required></label>
+      <label>Service<select><option>Starter</option><option>Business</option><option>Premium</option></select></label>
+      <label>Pickup Address<input type="text" required></label>
+      <label>Delivery Address<input type="text" required></label>
+      <label>Notes<textarea rows="3"></textarea></label>
+      <div class="form-actions">
+        <button class="btn" type="submit">Submit</button>
+        <button class="btn alt" type="reset">Reset</button>
+      </div>
+    </form>
+    <div>
+      <h3>Quick Contact</h3>
+      <p>Email: orders@techcourier.example</p>
+      <p>Phone: +27 82 555 1234</p>
+      <p>Hours: Mon–Sat 07:00–20:00</p>
+      <img src="https://images.unsplash.com/photo-1520975914105-4b3f0e6a2b06?auto=format&fit=crop&w=800&q=60" alt="">
+    </div>
+  </div>
+</section>
+
+<footer>
+  Created by Dominique De Beer — High School Standerton — 2025
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+document.getElementById('toggle').onclick = ()=>nav.classList.toggle('show');
+document.querySelectorAll('nav a').forEach(a=>{
+  a.onclick=()=>nav.classList.remove('show');
+});
+</script>
+</body>
+</html>
